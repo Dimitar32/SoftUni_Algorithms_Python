@@ -9,9 +9,9 @@ def move_all_paths(rows, cols, row, col, matrix, sum):
 
     matrix[row][col] = 'v'
 
-    move_all_paths(rows, cols, row - 1, col, matrix, sum)
+    # move_all_paths(rows, cols, row - 1, col, matrix, sum)
     move_all_paths(rows, cols, row + 1, col, matrix, sum)
-    move_all_paths(rows, cols, row, col - 1, matrix, sum)
+    # move_all_paths(rows, cols, row, col - 1, matrix, sum)
     move_all_paths(rows, cols, row, col + 1, matrix, sum)
 
     matrix[row][col] = 0
