@@ -40,3 +40,18 @@ while node is not None:
 
 print(f"Shortest path length is: {len(path) - 1}")
 print(*path, sep=' ')
+
+
+
+8
+A - B - 2
+A - C - 4
+B - C - 1
+B - D - 4
+C - D - 3
+C - E - 5
+D - E - 2
+B - E - 1
+B-E
+A
+E
